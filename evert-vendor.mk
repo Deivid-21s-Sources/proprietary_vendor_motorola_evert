@@ -6,8 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/motorola/evert
 
 PRODUCT_COPY_FILES += \
-    vendor/motorola/evert/proprietary/system/etc/permissions/com.motorola.motosignature.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.motosignature.xml \
-    vendor/motorola/evert/proprietary/system/etc/permissions/privapp-permissions-com.motorola.camera2.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-com.motorola.camera2.xml \
     vendor/motorola/evert/proprietary/vendor/etc/acdbdata/common/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/common/Bluetooth_cal.acdb \
     vendor/motorola/evert/proprietary/vendor/etc/acdbdata/common/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/common/General_cal.acdb \
     vendor/motorola/evert/proprietary/vendor/etc/acdbdata/common/Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/common/Global_cal.acdb \
@@ -420,10 +418,7 @@ PRODUCT_PACKAGES += \
     libsecureui_svcsock \
     libssd \
     vendor.qti.hardware.tui_comm@1.0 \
-    MotoSignatureApp \
-    MotCamera2 \
     ims \
-    com.motorola.motosignature \
     charge_only_mode \
     android.hardware.biometrics.fingerprint@2.1-fpcservice \
     android.hardware.gatekeeper@1.0-service-qti \
